@@ -19,6 +19,9 @@ header {
     display: flex;
     justify-content: center; 
 }
+.imgSection img{
+    margin: 10px;
+}
 
 nav {
     background-color: #FCBF49;

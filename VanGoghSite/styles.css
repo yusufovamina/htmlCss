@@ -46,16 +46,29 @@ nav ul li ul {
     background-color: #060bab;
     border: 1px solid #ccc;
     z-index: 1;
+    animation: menu;
 }
 
 nav ul li:hover ul {
     display: block;
 }
 
-nav ul li ul li {
-    display: block;
-    width: 100%;
+nav ul li:hover a {
+    color: #ffcc00; 
 }
+
+
+nav ul li ul li a {
+    color: #ebff36; 
+    padding: 10px 20px;
+    text-decoration: none;
+    transition: color 0.3s; 
+}
+
+nav ul li ul li:hover a {
+    color: rgb(255, 102, 0); 
+}
+
 
 .imgSection{
     display: flex;
